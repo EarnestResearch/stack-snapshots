@@ -1,0 +1,7 @@
+resolver: https://github.com/EarnestResearch/stack-snapshots/snapshots/maestro-aws.yaml
+name: maestro-package.yaml
+extra-deps:
+- git: git@github.com:EarnestResearch/maestro.git
+  commit: 014ee3aff7168e785c4bad3305e8ed2acad48a7a
+- git: git@github.com:EarnestResearch/maestro-db.git
+  commit: e902fbacf3990115142342eea5d25738c01df8cb

@@ -1,0 +1,16 @@
+resolver: lts-12.7
+name: maestro-aws.yaml
+packages:
+- git: git@github.com:brendanhay/amazonka
+  commit: 248f7b2a7248222cc21cef6194cd1872ba99ac5d
+  subdirs:
+    - amazonka
+    - core
+    - amazonka-batch
+    - amazonka-cloudwatch
+    - amazonka-emr
+    - amazonka-glue
+    - amazonka-kinesis
+    - amazonka-s3
+    - amazonka-ssm
+    - amazonka-sqs
