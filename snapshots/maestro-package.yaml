@@ -1,4 +1,4 @@
-resolver: https://github.com/EarnestResearch/stack-snapshots/snapshots/maestro-aws.yaml
+resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/maestro-aws.yaml
 name: maestro-package.yaml
 extra-deps:
 - git: git@github.com:EarnestResearch/maestro.git
