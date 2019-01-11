@@ -1,5 +1,5 @@
 resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/maestro-aws.yaml
 name: maestro-core.yaml
-extra-deps:
+packages:
 - git: git@github.com:EarnestResearch/maestro.git
   commit: 014ee3aff7168e785c4bad3305e8ed2acad48a7a
