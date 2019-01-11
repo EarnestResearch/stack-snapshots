@@ -1,5 +1,5 @@
 # stack-snapshots
-A repository to house useful custom stack snapshots, c.f., https://www.fpcomplete.com/blog/2017/07/stacks-new-extensible-snapshots.
+A repository to house useful custom stack snapshots, c.f.,https://docs.haskellstack.org/en/stable/custom_snapshot/ and  https://www.fpcomplete.com/blog/2017/07/stacks-new-extensible-snapshots.
 
 The hope is that this will be useful as our internal dependencies grow.
 
@@ -18,11 +18,11 @@ extra-deps:
     - amazonka-s3
 - named-2.0
 ```
-into its own snapshot that can be referenced thusly
+into its own snapshot that can be referenced thusly (or even from a URL)
 
 ``` yaml
 # new stack.yaml
-resolver: https://github.com/EarnestResearch/stack-snapshots/snapshots/my-custom-snapshot.yaml
+resolver: my-custom-snapshot.yaml
 ```
 where
 
