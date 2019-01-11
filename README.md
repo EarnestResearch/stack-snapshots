@@ -30,7 +30,7 @@ where
 # my-custom-snapshot.yaml
 resolver: lts-12.7
 name: my-custom-snapshot.yaml
-extra-deps:
+packages:
 - git: git@github.com:brendanhay/amazonka
   commit: 248f7b2a7248222cc21cef6194cd1872ba99ac5d
   subdirs:
