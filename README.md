@@ -4,6 +4,24 @@ A repository to house useful custom stack snapshots, c.f.,https://docs.haskellst
 The hope is that this will be useful as our internal dependencies grow.
 
 # Usage
+
+In your `stack.yaml` set resolver to
+
+``` yaml
+resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/er-lts-13.8.0.yaml
+```
+
+# Approach
+
+Custom snapshots are derived from [upstream](https://www.stackage.org/) and include additional packages we wish to include
+as well as updated versions of official packages (generally bugfixes that are not yet visible upstream).
+
+# Add a new custom snapshot
+
+Review the the status of the latest available, see if any of the customized dependencies got any updates and bump those up or
+remove them if the fixes are already upstream. Add a new snapshot by suffixing our patch number at the end of `lts-x.y` official version.
+
+# Motivation
 The point of custom snapshots is to turn, e.g., this
 
 ``` yaml
