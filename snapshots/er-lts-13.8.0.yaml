@@ -1,0 +1,7 @@
+resolver: lts-13.8
+name: er-lts.13.8.0.yaml
+
+packages:
+# https://github.com/frontrowed/stratosphere/issues/111
+ - github: EarnestResearch/stratosphere
+   commit: "5901fe991a344a11c50bc6f43522561a974c9e20"
