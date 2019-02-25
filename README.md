@@ -8,7 +8,7 @@ The hope is that this will be useful as our internal dependencies grow.
 In your `stack.yaml` set resolver to
 
 ``` yaml
-resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/er-lts-13.8.0.yaml
+resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/er-lts-13.9.0.yaml
 ```
 
 # Approach
