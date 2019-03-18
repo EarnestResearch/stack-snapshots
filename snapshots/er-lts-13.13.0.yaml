@@ -5,8 +5,7 @@ packages:
 # Upstream 'master' addresses the issues we had in the PR
 # but it's not on stackage yet.
 # https://github.com/frontrowed/stratosphere/issues/111
- - github: freckle/stratosphere
-   commit: "d2a91b1cfcc726df7e065f6415ecdcc2ff970871"
+ - stratosphere-0.34.0
 
  - github: EarnestResearch/amazonka
    commit: "b66e6e6ff48e66d4954adeb72ed6baa37413d285"
