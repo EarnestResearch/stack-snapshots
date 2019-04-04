@@ -1,0 +1,7 @@
+resolver: https://raw.githubusercontent.com/EarnestResearch/stack-snapshots/master/snapshots/er-lts-13.9.0.yaml
+name: er-lts-13.9.1.yaml
+packages:
+  - beam-core-0.7.2.3
+  - beam-postgres-0.3.2.3
+  - beam-migrate-0.3.2.2
+  - servant-multipart-0.11.3
