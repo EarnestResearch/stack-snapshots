@@ -1,0 +1,46 @@
+resolver: lts-13.15
+name: er-lts.13.15.0
+
+packages:
+# Upstream 'master' addresses the issues we had in the PR
+# but it's not on stackage lts yet.
+# https://github.com/frontrowed/stratosphere/issues/111
+- stratosphere-0.36.0
+
+- archive: https://github.com/EarnestResearch/amazonka/archive/b66e6e6ff48e66d4954adeb72ed6baa37413d285.tar.gz
+  subdirs:
+    - core
+    - amazonka
+    - amazonka-apigateway
+    - amazonka-athena
+    - amazonka-autoscaling
+    - amazonka-batch
+    - amazonka-certificatemanager
+    - amazonka-certificatemanager-pca
+    - amazonka-cloudformation
+    - amazonka-cloudwatch
+    - amazonka-cloudwatch-events
+    - amazonka-cloudwatch-logs
+    - amazonka-codebuild
+    - amazonka-codecommit
+    - amazonka-codedeploy
+    - amazonka-codepipeline
+    - amazonka-ec2
+    - amazonka-ecr
+    - amazonka-ecs
+    - amazonka-emr
+    - amazonka-glue
+    - amazonka-iam
+    - amazonka-kinesis
+    - amazonka-kms
+    - amazonka-lambda
+    - amazonka-rds
+    - amazonka-redshift
+    - amazonka-route53
+    - amazonka-s3
+    - amazonka-secretsmanager
+    - amazonka-ses
+    - amazonka-sns
+    - amazonka-sqs
+    - amazonka-stepfunctions
+    - amazonka-sts
