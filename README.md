@@ -1,4 +1,8 @@
 # stack-snapshots
+
+**NOTE** this repo is now deprecated/archived. Nix/cabal are used to build haskell projects.
+
+
 A repository to house useful custom stack snapshots, c.f.,https://docs.haskellstack.org/en/stable/custom_snapshot/ and  https://www.fpcomplete.com/blog/2017/07/stacks-new-extensible-snapshots.
 
 The hope is that this will be useful as our internal dependencies grow.
